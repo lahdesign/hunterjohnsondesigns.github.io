@@ -132,10 +132,21 @@
 
 
 /* MEDIA QUERY FOR MOBILE */
-@media (max-width:735px){}
+@media (max-width:735px){
     nav {
         padding-left: 0;
     }
+    .container{
+      min-width:100%;
+      height:100vh;
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas:
+            "nav"
+            "parent-landing"
+            "portfolio-container"
+            "footer";}
 
    .image-gallery {
        padding-bottom: 200%;
@@ -150,6 +161,26 @@
        ;
    }
 
+   .parent-landing {
+    display: grid;
+     padding-bottom: 200%;
+       grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+       grid-template-areas:
+       ".a."
+       ".b."
+       ;
+    align-items: center;
+    justify-content: center;
+    ;
+    }
+    
+    .name-type { grid-area: 1 / 1 / 2 / 2; 
+      scale: 10%;
+      margin: 10%}
+    .land-type { grid-area: 1 / 2 / 2 / 3;
+      width: 70%;
+      margin: 10%}
+}
 /* Link Animation */
 
 .hover-underline-animation {
