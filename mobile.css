@@ -1,5 +1,5 @@
 /* MEDIA QUERY FOR MOBILE */
-@media (max-width:735px){
+  @media (max-width:735px){
     nav {
         padding-left: 0;
     }
@@ -27,14 +27,27 @@
        ".f."
        ;
    }
-
-   .parent-landing {
+.parent-landing {
     
     align-items: center;
     justify-content: center;
     ;
     }
 }
+   .div1 { grid-area: a;
+    scale:50%;}
+  .div2 { grid-area: b;
+    scale: 50%;}
+  .div3 { grid-area: c;
+    scale: 50%;}
+  .div4 { grid-area: d; 
+    scale: 50%;}
+  .div5 { grid-area: e;
+    scale: 50%;}
+  .div6 { grid-area: f;
+     scale: 50%;}
+
+   
 
 
 
