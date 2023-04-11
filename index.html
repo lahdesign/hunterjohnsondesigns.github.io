@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="interaction.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="mobile.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="desktop.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:italic,100,800" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/qya2sqo.css">
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -19,7 +21,7 @@
 
 
 <!--Nav section-->
-<nav>
+<nav class="hide-mobile">
     <!--find out why the svg isn't appearing?-->
     <ul>
        
@@ -37,6 +39,20 @@
       </ul>
 </nav>
 
+<div class="hide-desktop">
+<div id='menu'>
+	<div class='menu-line1'></div>
+	<div class='menu-line2'></div>
+  </div>
+  <div class='nav-page1'>
+	<span class="hover-underline-animation">HOME</span>
+	<span class="hover-underline-animation">DESIGN PORTFOLIO</span>
+	<span class="hover-underline-animation">PHOTOGRAPHY PORTFOLIO</span>
+	<span class="hover-underline-animation">ART PORTFOLIO</span>
+	<span class="hover-underline-animation">ABOUT</span>
+  </div>
+  <div class='nav-page2'></div>
+</div>
 
 
 <!--name section-->

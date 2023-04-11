@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
-/* nav bar */
+/* desktop nav bar */
 
 /* .hj {
     scale: 10%;
@@ -35,6 +35,7 @@ nav {
     position: fixed;
     width: 100%;
     top:0px;
+    grid-area: nav;
     z-index: 1;
 }
 
@@ -89,6 +90,9 @@ ul {
     display: block;
   }
 
+
+
+
 /* landing */
 
 .parent-landing {
@@ -125,6 +129,7 @@ ul {
        .portfolio-container {
         margin: 0 auto;
         display: grid;
+        grid-area: portfolio-container;
         background-color: #c51111;
         align-items: center;
         justify-content: center;
@@ -138,53 +143,4 @@ ul {
            "f";
        }
 
-/* desktop grid */
-@media only screen and (min-width: 1200px) {
- 
-  /* .container{
-    min-width:100%;
-    height:100vh;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-          "nav"
-          "parent-landing"
-          "portfolio-container"
-          "footer";} */
-          
-  nav {
-    padding-left: 0;
-}
 
-.portfolio-container {
-  display: grid;
-  background-color: #B46060;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 3%;
-  grid-template-areas:
-    "a b"
-    "c d"
-    "e f";
-}
-.parent-landing {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(0, 1fr);
-  align-items: center;
-  justify-content: center;
-  ;
-  }
-  
-  .name-type { grid-area: 1 / 1 / 2 / 2; 
-    scale: 120%;
-    margin: 10%}
-  .land-type { grid-area: 1 / 2 / 2 / 3;
-    width: 70%;
-    margin: 10%}
-
-}
