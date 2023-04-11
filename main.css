@@ -10,6 +10,11 @@ body {
     background-color: #1a1a1a;
 }
 
+.clickable {
+text-decoration:dotted;
+ text-decoration-color:#B46060;
+}
+
 h3 {
   text-transform: uppercase;
 }
@@ -91,6 +96,54 @@ ul {
   }
 
 
+/* social sidebar */
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  left: 94%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  color: white;
+}
+
+.twitter {
+  color: white;
+}
+
+.google {
+  color: white;
+}
+
+.linkedin {
+  color: white;
+}
+
+.instagram {
+  color: white;
+}
+
+
+
 
 
 /* landing */
@@ -109,17 +162,17 @@ ul {
  
   
       .div1 { grid-area: a;
-        scale:75%;}
+        scale:60%;}
       .div2 { grid-area: b;
-        scale: 75%}
+        scale: 60%}
       .div3 { grid-area: c;
-        scale: 75%}
+        scale: 60%}
       .div4 { grid-area: d; 
-        scale: 75%}
+        scale: 60%}
       .div5 { grid-area: e;
-        scale: 75%}
+        scale: 60%}
       .div6 { grid-area: f;
-         scale: 75%}
+         scale: 60%}
     
     
       nav {
