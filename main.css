@@ -89,6 +89,13 @@ ul {
     display: block;
   }
 
+  /* css grid for the whole page other than nav */
+  .container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  /* align-items: center; */
+  }
 /* landing */
 
 .parent-landing {
@@ -105,17 +112,23 @@ ul {
  
   
       .div1 { grid-area: a;
-        scale:75%;}
+        /* scale:75%; */
+      }
       .div2 { grid-area: b;
-        scale: 75%}
+        /* scale: 75% */
+      }
       .div3 { grid-area: c;
-        scale: 75%}
+        /* scale: 75% */
+      }
       .div4 { grid-area: d; 
-        scale: 75%}
+        /* scale: 75% */
+      }
       .div5 { grid-area: e;
-        scale: 75%}
+        /* scale: 75% */
+      }
       .div6 { grid-area: f;
-         scale: 75%}
+         /* scale: 75% */
+        }
     
     
       nav {
