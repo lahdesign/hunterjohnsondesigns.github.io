@@ -22,15 +22,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* nav bar */
 
-/* .hj {
-    scale: 10%;
-    display: inline-block;
-    fill: rgb(255, 0, 0);
-    text-align: center;
-    padding: 14px 40px;
-    margin: auto;
-} */
-
 nav {
     position: fixed;
     width: 100%;
@@ -90,7 +81,7 @@ ul {
   }
 
   /* css grid for the whole page other than nav */
-  .container{
+  .wrapper{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
